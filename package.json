@@ -13,7 +13,6 @@
     "@types/node": "18.16.3",
     "@types/react": "18.2.0",
     "@types/react-dom": "18.2.1",
-    "@zerodevapp/sdk": "git+https://github.com/SahilVasava/zerodevapp-sdk.git#aa-161-simple-account-api",
     "@zerodevapp/wagmi": "^3.0.12",
     "axios": "^1.4.0",
     "eslint": "8.39.0",
@@ -23,6 +22,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "5.0.4",
-    "wagmi": "^0.12.12"
+    "wagmi": "^0.12.12",
+    "zerodevappsdk": "^3.1.4"
   }
 }

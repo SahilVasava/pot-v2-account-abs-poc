@@ -6,7 +6,7 @@ import { ConnectButton } from '@rainbow-me/rainbowkit'
 import { useAccount, useSigner, useProvider } from 'wagmi'
 import kleoHubABI from '@/abi/kleoHub.json'
 import simpleAccountABI from '@/abi/simpleAccount.json'
-import { ZeroDevSigner } from '@zerodevapp/sdk'
+import { ZeroDevSigner } from 'zerodevappsdk'
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 
