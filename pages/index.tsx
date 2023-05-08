@@ -92,10 +92,8 @@ export default function Home() {
         <ConnectButton />
         <button onClick={generateSignals}>Generate Signals</button>
         {genHash && <a href={`https://app.jiffyscan.xyz/userOpHash/${genHash}?network=mumbai`} target='_blank'>Jiffyscan Generate Transaction link</a>}
-        {genHash && <a href={`https://mumbai.polygonscan.com/tx/${genHash}`} target='_blank'>Generate Transaction link</a>}
         <button onClick={deleteSignals}>Delete Signals</button>
         {delHash && <a href={`https://app.jiffyscan.xyz/userOpHash/${delHash}?network=mumbai`} target='_blank'>Jiffyscan Delete Transaction link</a>}
-        {delHash && <a href={`https://mumbai.polygonscan.com/tx/${delHash}`} target='_blank'>Delete Transaction link</a>}
       </main >
     </>
   )
