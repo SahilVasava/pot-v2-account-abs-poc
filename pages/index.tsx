@@ -91,9 +91,9 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
         <ConnectButton />
         <button onClick={generateSignals}>Generate Signals</button>
-        {genHash && <a href={`https://mumbai.polygonscan.com/tx/${genHash}`}>Generate Transaction link</a>}
+        {genHash && <a href={`https://mumbai.polygonscan.com/tx/${genHash}`} target='_blank'>Generate Transaction link</a>}
         <button onClick={deleteSignals}>Delete Signals</button>
-        {delHash && <a href={`https://mumbai.polygonscan.com/tx/${delHash}`}>Delete Transaction link</a>}
+        {delHash && <a href={`https://mumbai.polygonscan.com/tx/${delHash}`} target='_blank'>Delete Transaction link</a>}
       </main >
     </>
   )
